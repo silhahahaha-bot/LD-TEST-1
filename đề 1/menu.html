@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ Thống Thi TOEIC - GV Thanh Trang</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #000000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .menu-container {
+            text-align: center;
+            background: #2b5a8f;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            max-width: 500px;
+            width: 90%;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 26px;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        p {
+            color: #e0e0e0;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        .btn-group {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .menu-btn {
+            padding: 18px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #2b5a8f;
+            background: #ffcc00;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            display: block;
+        }
+
+        .menu-btn:hover {
+            background: #ffa600;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+        }
+
+        .menu-btn:active {
+            transform: translateY(-1px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu-container">
+        <h1>HỆ THỐNG THI TOEIC</h1>
+        <p>Vui lòng lựa chọn phần thi bạn muốn thực hiện</p>
+        
+        <div class="btn-group">
+            <a href="listening.html" class="menu-btn">🎧 VÀO THI PART 1: LISTENING</a>
+            
+            <a href="reading.html" class="menu-btn">📝 VÀO THI PART 2: READING</a>
+        </div>
+    </div>
+
+</body>
+</html>
